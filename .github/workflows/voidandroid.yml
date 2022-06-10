@@ -1,9 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Android Build
+name: voidandroid
 
 # Controls when the action will run. 
-on: [workflow_dispatch, ]
+on: [workflow_dispatch, push]
 jobs:
   buildAndroid:
     # The type of runner that the job will run on
