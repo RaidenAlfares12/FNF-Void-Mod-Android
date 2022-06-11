@@ -13,11 +13,11 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
-import controls.FlxVirtualPad;
 #if newgrounds
 import io.newgrounds.NG;
 #end
 import lime.app.Application;
+import controls.FlxVirtualPad;
 
 #if windows
 import Discord.DiscordClient;
@@ -144,9 +144,9 @@ class MainMenuState extends MusicBeatState
 
 		changeItem();
  
-   #if android
-   addVirtualPad(FULL, A_B);
-   #end
+          #if android
+          addVirtualPad(FULL, A_B);
+         #end
  
 		super.create();
 	}
