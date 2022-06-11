@@ -13,6 +13,7 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
+import android.FlxVirtualPad;
 
 #if windows
 import Discord.DiscordClient;
@@ -227,7 +228,7 @@ class StoryMenuState extends MusicBeatState
 		trace("Line 165");
 
    #if android
-   addVirtualPad(UP_DOWN, A_B)
+   addVirtualPad(UP_DOWN, A_B);
    #end
 
 		super.create();
