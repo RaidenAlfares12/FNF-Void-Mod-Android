@@ -13,6 +13,7 @@ import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
+import android.FlxVirtualPad;
 #if newgrounds
 import io.newgrounds.NG;
 #end
