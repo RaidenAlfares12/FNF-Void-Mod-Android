@@ -1,4 +1,4 @@
-package android;
+package controls;
 
 import flixel.FlxG;
 import flixel.graphics.frames.FlxTileFrames;
