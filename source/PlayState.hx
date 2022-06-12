@@ -5421,9 +5421,9 @@ class PlayState extends MusicBeatState
 		trace('poggers');
 
 		if (!songStarted)
-			//webmHandler.pause();
+			webmHandler.pause();
 		else
-			//webmHandler.resume();
+			webmHandler.resume();
 		#end
 	}
 
