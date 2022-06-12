@@ -2,6 +2,7 @@ package;
 
 import flixel.input.gamepad.FlxGamepad;
 import Controls.KeyboardScheme;
+import controls.FlxVirtualPad;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSprite;
@@ -17,7 +18,6 @@ import flixel.util.FlxTimer;
 import io.newgrounds.NG;
 #end
 import lime.app.Application;
-import controls.FlxVirtualPad;
 
 #if windows
 import Discord.DiscordClient;
