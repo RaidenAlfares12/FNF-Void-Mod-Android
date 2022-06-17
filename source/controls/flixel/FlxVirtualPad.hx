@@ -1,4 +1,4 @@
-package controls;
+package flixel;
 
 import flixel.FlxG;
 import flixel.graphics.frames.FlxTileFrames;
