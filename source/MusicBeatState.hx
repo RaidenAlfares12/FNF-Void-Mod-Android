@@ -10,7 +10,7 @@ import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 #if android
 import flixel.input.actions.FlxActionInput;
-import android.AndroidControls.AndroidControls;
+import controls.AndroidControls;
 import controls.flixel.FlxVirtualPad;
 #end
 
