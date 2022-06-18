@@ -71,6 +71,6 @@ class FlxHitboxHint extends FlxButton
 
 	public function getFrames():FlxAtlasFrames
 	{
-		return Paths.getSparrowAtlas('android/hitbox');
+		return Paths.getSparrowAtlas('android/hitbox/hitbox');
 	}
 }
